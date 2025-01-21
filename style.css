@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+header,banner,.curriculum {
+    max-width: 1160px;
+    margin: 0px auto;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* shared style */
+.back-orange {
+    background-color: #FEA301;
+}
+
+.orange {
+    color: #FEA301;
+}
+
+.back-skyblue {
+    background-color: #01ACFD;
+}
+
+.skyblue {
+    color: #01ACFD;
+}
+
+main {
+    background-image: url(assets/bg.png)
+}
+nav, banner{
+    padding: 20px;
+    
+}
+
+/* nav bar style */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.brand-name {
+    font-weight: 700;
+    font-size: 2.1rem;
+    color: black;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+.nav-link-anchor {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 550;
+}
+
+.nav-btn {
+    color: #FFFFFF;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 60.5px;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+/* banner design */
+
+banner{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.banner-details{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 3.5rem;  
+}
+.banner-desc{
+    font-size: 1.1rem;
+}
+.banner-btn{
+    padding: 10px 47px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    font-size: 1.1rem;
+    border-radius: 12px;
+}
+/* Curriculum */
+.curriculum{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 40px 0px;
+}
+.curriculum-title{
+    font-weight: 700;
+    font-size: 3rem;
+    color: #000000;
+}
+.curriculum-cards-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 28.29px;
+}
+.curriculum-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: inset 0px 0px 28.3px rgba(0, 0, 0, 0.05);
+    border-radius: 18.86px;
+    gap: 32px;
+}
+.curriculum-card-title{
+    font-weight: 700;
+    font-size: 1.7rem;
+    color: #202020;
+}
+.curriculum-card-desc{
+    text-align: center;
+    color: #808080;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.curriculum-card-button{
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+#menubar {
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+
+    /* navbar design */
+
+    nav {
+        margin-top: 0px;
+        border: 2px solid orange;
+        padding: 12px 16px;
+    }
+
+    .nav-btn {
+        display: none;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .brand-name {
+        display: none;
+    }
+
+    #menubar {
+        display: unset;
+    }
+
+    /* banner */
+
+    banner{
+        flex-direction: column-reverse;
+    }
+    .banner-title,.banner-desc{
+        text-align: center;
+    }
+    .banner-title{
+        font-size: 2rem;
+    }
+    .banner-btn-div{
+        text-align: center;
+    }
+}
