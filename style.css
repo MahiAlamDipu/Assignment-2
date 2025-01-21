@@ -8,7 +8,7 @@
 }
 
 
-header,banner,.curriculum,.stories {
+header,.curriculum,.stories {
     max-width: 1160px;
     margin: 0px auto;
 }
@@ -327,6 +327,12 @@ footer{
 #menubar {
     display: none;
 }
+marquee{
+    color: #01ACFD;
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 3rem;
+}
 
 @media screen and (max-width:576px) {
     /* navbar design */
@@ -405,8 +411,12 @@ footer{
     .right-side-card-title{
         width: auto;
     }
-    .story-desc,.left-side-story-desc{
-        margin-left: 20px;
+    .story-desc{
+        margin-left: 10px;
+        padding: 10px;
+    }
+    .date{
+        padding: 12px;
     }
     .stories{
         gap: 40px;
@@ -419,6 +429,9 @@ footer{
     }
     .keep-in-touch{
         text-align: left;
+    }
+    .arrow{
+        display: none;
     }
     
 }
