@@ -1,0 +1,49 @@
+.left-side-card-title{
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #000000;
+    width: 402px;
+    margin-top: 36px;
+    margin-bottom: 50px;
+}
+.left-side-card-desc{
+    font-weight: 600;
+    font-size: 1rem;
+    width: 433px;
+    color: #666666;
+    margin-bottom: 30px;
+}
+
+/* right side card */
+
+.right-side-card ,.left-side-card{
+    border-radius: 16px;
+    background-color: #FFFFFF;
+}
+.right-side-card img ,.left-side-card img{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.story-desc,.left-side-story-desc{
+    margin-left: 38px;
+
+}
+.date {
+    display: inline;
+    /* inline -> joto tuku jayga dorkar toto tukui nibe  */
+    color: white;
+    border-radius: 47.93px;
+    padding: 10px 20px;
+    position: relative;
+    bottom: 15px;
+}
+
+.right-side-card-title{
+    width: 214px;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 28px;
+}
