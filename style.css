@@ -262,6 +262,38 @@ banner{
     margin-top: 20px;
     margin-bottom: 28px;
 }
+/* footer */
+footer{
+    background-color: #01ACFD;
+}
+.footer-container{
+    max-width: 1070px;
+    margin: 0px auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 125px;
+    padding-bottom: 175px;
+}
+.keep-in-touch{
+    text-align: center;
+    
+}
+#keep-in-touch{
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+.footer-links{
+    list-style: none;
+}
+#about-school{
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 1.5px;
+
+}
 
 
 #menubar {
