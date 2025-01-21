@@ -112,7 +112,9 @@ banner{
     font-size: 1.1rem;
     border-radius: 12px;
 }
+
 /* Curriculum */
+
 .curriculum{
     display: flex;
     flex-direction: column;
@@ -139,6 +141,19 @@ banner{
     box-shadow: inset 0px 0px 28.3px rgba(0, 0, 0, 0.05);
     border-radius: 18.86px;
     gap: 32px;
+    padding: 41px 53px;
+}
+.curriculum-card-3{
+    background: linear-gradient(180deg, #EEE1FF 0%, #FFFFFF 40%);
+    border: 1px solid #F2E8FF;
+}
+.curriculum-card-2{
+    background: linear-gradient(180deg, #FFF4DC 0%, #FFFFFF 40%);
+    border: 1px solid #FFF4DC
+}
+.curriculum-card-1{
+    background: linear-gradient(180deg, #DEF5FF 0%, #FFFFFF 40%);
+    border: 1px solid #DEF5FF;
 }
 .curriculum-card-title{
     font-weight: 700;
@@ -199,5 +214,16 @@ banner{
     }
     .banner-btn-div{
         text-align: center;
+    }
+    .curriculum{
+        padding: 50px 20px;
+        gap: 20px;
+    }
+    .curriculum-title{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .curriculum-cards-container{
+        grid-template-columns: repeat(1,1fr);
     }
 }
