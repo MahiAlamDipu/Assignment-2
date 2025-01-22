@@ -416,7 +416,8 @@ marquee{
         padding: 10px;
     }
     .date{
-        padding: 12px;
+        padding: 10px;
+        font-size: 1rem;
     }
     .stories{
         gap: 40px;
