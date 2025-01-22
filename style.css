@@ -271,9 +271,9 @@ footer{
     margin: 0px auto;
 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 90px;
-    padding-top: 125px;
+    grid-template-columns: 1fr 0.7fr 1fr;
+    gap: 200px;
+    padding-top: 150px;
     padding-bottom: 175px;
 }
 .footer-title{
@@ -294,20 +294,28 @@ footer{
 .footer-links{
     list-style: none;
 }
+.about-school{
+    
+    width: 190px;
+}
 #about-school{
     font-weight: 700;
     color: #FFFFFF;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-bottom: 32px;
+    
+    
 }
+
 .footer-link{
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    
 }
 .footer-link-anchor{
     text-decoration: none;
     color: #FFFFFF;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 .kids-image-education{
@@ -416,8 +424,12 @@ marquee{
         padding: 10px;
     }
     .date{
-        padding: 10px;
-        font-size: 1rem;
+        padding: 7px;
+        font-size: 0.6rem;
+        bottom: 26px;
+    }
+    .right-side-card-title{
+        margin-top: -5px;
     }
     .stories{
         gap: 40px;
